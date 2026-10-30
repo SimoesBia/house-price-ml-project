@@ -1,2 +1,29 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Ambiente
+.env
+
+# Artefatos gerados (re-gerados com `make train`)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+reports/metrics.json
+reports/feature_importance.csv
+reports/figures/*
+!reports/figures/.gitkeep
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
