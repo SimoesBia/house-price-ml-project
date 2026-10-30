@@ -164,7 +164,7 @@ make docker-run
 
 ## 👩‍💻 Autora
 
-Desenvolvido por **Bia (Bruna Beatriz)** — estudante de Ciência da Computação, com foco em Engenharia de Software, dados e IA.
+Desenvolvido por **Bruna Beatriz** — estudante de Ciência da Computação, com foco em Engenharia de Software, dados e IA.
 
 [GitHub](https://github.com/SimoesBia)
 
