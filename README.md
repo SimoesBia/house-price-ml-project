@@ -75,10 +75,9 @@ house-price-ml-project/
 
 Métricas no conjunto de teste (20%, `random_state=42`). Geradas por `make train` e gravadas em `reports/metrics.json`.
 
-| Modelo | MAE | RMSE | R² |
-| 0.5558915986952444 | 0.5332001304956565 | 0.7455813830127764 | 0.5757877060324508 |
-| Regressão Linear | – | – | – |
-| Random Forest | – | – | – |
+O treinamento compara Regressão Linear e Random Forest por validação cruzada. As métricas finais (MAE, MSE, RMSE e R²) são calculadas no conjunto de teste e salvas em `reports/metrics.json`.
+
+> Para consultar os resultados numéricos da execução, execute `python main.py train` e confira `reports/metrics.json`.
 
 > MAE e RMSE estão em unidades de US$ 100 mil.
 
